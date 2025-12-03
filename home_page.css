@@ -1,5 +1,6 @@
 header {
     background-color: #202020;
+    height: 100px;
 }
 
 body {
@@ -11,4 +12,5 @@ body {
 }
 footer {
     background-color: #202020;
+    height: 100px;
 }
