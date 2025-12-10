@@ -2,7 +2,10 @@ header {
     background-color: #202020;
     height: 100px;
 }
-
+.logo {
+    height: 90px;
+    width: 120px;
+}
 body {
     background-color: #f9e99a;
     color: #cdae0d;
