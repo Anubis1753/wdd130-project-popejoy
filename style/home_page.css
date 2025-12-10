@@ -1,0 +1,126 @@
+body {
+    background-color: #f9e99a; 
+    color: #cdae0d; 
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* --- Header --- */
+header {
+    background-color: #202020;
+    padding: 15px 0;
+    color: white;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo */
+.logo {
+    text-decoration: none;
+}
+
+.logo-box {
+    background-color: #d4af37;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 0.8rem;
+    text-align: center;
+    border: 1px solid white;
+    width: 130px;
+}
+#logo_img {
+    height: 90px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* --- Main Content --- */
+main {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.content-block {
+    margin-bottom: 60px;
+}
+.sectional {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.section1 {
+    width: 30%;
+    height: 200px;
+    background-color: white;
+    border: 2px solid #202020;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.section2 {
+    width: 30%;
+    height: 200px;
+    background-color: white;
+    border: 2px solid #202020;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.image-placeholder span {
+    font-size: 3rem;
+    color: #202020;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+p {
+    max-width: 600px;
+    margin: 0 auto;
+    font-weight: bold; 
+}
+
+/* --- Footer --- */
+footer {
+    background-color: #202020;
+    padding: 20px 0;
+    color: white;
+    margin-top: auto;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

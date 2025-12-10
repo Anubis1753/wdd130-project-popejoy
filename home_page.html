@@ -4,22 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="home_page.css">
+    <link rel="stylesheet" href="style/home_page.css">
 </head>
 <body>
     <header>
         <div class="container header-content">
-            <a href="#" class="logo">
+            <a href="home_page.html" class="logo">
                 <div class="logo-box">
-                    <img src="images/logo.png" alt="The Buzz Hive">
+                    <img id="logo_img" src="images/logo.png" alt="The Buzz Hive">
                 </div>
             </a>
 
             <nav>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Production</a></li>
-                    <li><a href="#" class="sign-in">Sign In</a></li>
+                    <li><a href="home_page.html">Home</a></li>
+                    <li><a href="subpage1.html">Production</a></li>
+                    <li><a href="subpage2.html" class="sign-in">Sign In</a></li>
                 </ul>
             </nav>
         </div>
@@ -29,14 +29,26 @@
         <p>Pure Honey. Zero Work. Your Backyard Hive Awaits.</p>
         <img src="images/Bee masters.png" alt="beekeepers"></hero>
         <p>Support the ecosystem and enjoy the sweetest, freshest honey—all managed by our expert beekeepers for a low monthly fee</p>
-        <div>Our Services!</div>
-        <div>How It's Made!</div>
+        <div class="sectional">
+            <div class="section1">
+                <section>Our Services!</section>
+            </div>
+            <div class="section2">
+                <section>How It's Made!</section>
+            </div>
+        </div>
     </main>
     <footer>
-        <div class="bottom">
-            <a href="Instagram">
-            <a href="Facebook">
-            <a href="Snapchat">
+        <div class="container footer-content">
+            <div class="footer-left">
+                &copy; 2023 The Buzz Hive
+            </div>
+            
+            <div class="social-buttons">
+                <a href="https://www.instagram.com/" class="btn">Insta</a>
+                <a href="https://www.facebook.com/" class="btn">Facebook</a>
+                <a href="https://www.snapchat.com/" class="btn">Snapchat</a>
+            </div>
         </div>
     </footer>
 </body>
